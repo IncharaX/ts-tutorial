@@ -89,4 +89,15 @@ type Quantity= 10 | 20;
         console.log("Hola!");
  }
  greet(null);  */                           // nullable types//
+
+
+ type Customer={
+    birthday?:Date;
+ }
+ function getCustomer(id:number): Customer | null | undefined{
+    return id===0? null:{birthday:new Date()};
+ }
+
+ let customer = getCustomer(1);
+ console.log(customer?.birthday?.getFullYear);     //optional chaining//
  
