@@ -17,6 +17,19 @@ let mySize:Size=Size.Small;
 console.log(mySize);
 */
 
- const enum Size{Small=1,Medium,Large};
-let mySize:Size=Size.Small;
-console.log(mySize);
+/*
+let employee:{
+    readonly id:number,
+    name:string
+    retire:(date:Date)=>void
+}={
+     id:1,
+     name:"Inchara",
+     retire:(date:Date)=>{
+        console.log(date);
+     }
+    };
+
+    */                             // objects//
+
+    
