@@ -72,4 +72,21 @@ let employee:Employee={
     drag:()=>{},
     resize:()=>{}
  }. */                            // intersection types//
+
+ /*
+type Quantity= 10 | 20;
+ let quantity=10;
+
+ type Metric= 'cm' | 'inch';
+ let metric : Metric='cm';  */                           // literal types//
+
+
+ /*
+ function greet(name:string | null){
+    if(name)
+        console.log(name.toUpperCase());
+    else
+        console.log("Hola!");
+ }
+ greet(null);  */                           // nullable types//
  
