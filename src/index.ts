@@ -46,4 +46,30 @@ let employee:Employee={
      }
     };   */                            // type alias//
 
-    
+    /*
+ function kgtoLbs(weight: number|string):number{
+    //narrowing
+    if(typeof weight ==="number")
+        return weight*2.2;
+    else{
+        return parseInt(weight)*2.2;
+    }
+ }   
+ kgtoLbs(10);
+ kgtoLbs("10kg");   */                            // union types//
+
+ /*
+ type draggable={
+    drag:()=>void
+ };
+ type resizable={
+    resize:()=>void
+ };
+
+ type uiWidget=draggable | resizable;
+ 
+ let textBox:uiWidget={
+    drag:()=>{},
+    resize:()=>{}
+ }. */                            // intersection types//
+ 
